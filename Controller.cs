@@ -17,7 +17,7 @@ namespace PeopleCalcBot
         public async Task ControllerAsync()
         {
             //TOKEN
-            var client = new TelegramBotClient("TELEGRAM BOT TOKEN");
+            var client = new TelegramBotClient("6880221677:AAGWYvXXsTlxVKeJAlfT7Q1wT0_f78JJqQw");
             var cts = new CancellationTokenSource();
             var cancellationToken = cts.Token;
             var receiverOptions = new ReceiverOptions
